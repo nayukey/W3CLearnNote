@@ -1,5 +1,5 @@
 阅读笔记第一节-Document
-
+-------------------------------------------------------------------------------------------------------
 document.referrer 获取网页的来源页面的地址，NGINX与APACHE等服务器access.log中会记录此信息，注意若link类型设置了noreferrer属性，HTTP请求中就不会记录referrer属性，另外若从一个HTTPS的应用中跳到HTTP，也不会记录referrer属性。
 
 document.cookie 注意若内容在sandboxed into unique origin中，cookie是不能get也不能set的。
@@ -28,7 +28,28 @@ document.getElementsByName(name) 返回name属性为某值的NodeList
 
 元素，属性，属性值在HTML中都会被定义成具体的意义，这些定义会让WEB搜索引擎，展示，使用文档和应用等一大堆的用途。开发者不能使用元素，属性，属性值去做这个元素本身不存在的用户当中。
 
+-------------------------------------------------------------------------------------------
+内容的种类：Metadata content、Flow content、Sectioning content、Heading content、Phrasing content、Embedded content、Interactive content
+Metadata content: 用于指定剩余其他内容的展现形式，或者创建与其他文档之间的联系
+eg: base link meta noscript script style template title
 
+Flow content: 使用在body元素中的大部分文档与应用集合在一起当为flow content
+eg:a abbr address area (当是map元素的子元素时) article aside audio b bdi bdo blockquote br button canvas cite code data datalist del dfn div dl em embed fieldset figure footer form h1 h2 h3 h4 h5 h6 header hr i iframe img input ins kbd keygen label main map mark math meter nav noscript object ol output p pre progress q ruby s samp script section select small span strong sub sup svg table template textarea time u ul var video wbr text
 
+Sectioning content: 使用在顶部或者底部的定义块，每一个sectionoing content元素潜在含有一个heading与一个outline
+eg:article aside nav section
+
+Heading content: 定义了一个部分的核心内容
+eg:h1 h2 h3 h4 h5 h6
+
+Phrasing content: 文档中的文字部分的内容
+eg：a abbr area (当是map元素的子元素时) audio b bdi bdo br button canvas cite code data datalist del dfn em embed i iframe img input ins kbd keygen label map mark math meter noscript object output progress q ruby s samp script select small span strong sub sup svg template textarea time u var video wbr text
+
+Embedded content： 是从其他的资源导入进去文档中的内容部分
+eg: audio canvas embed iframe img math object svg video
+------------------------------------------------------------------------------------------------------
+
+全局共同属性
+accesskey、class、contenteditable、dir、hidden、id、lang、spellcheck、style、tabindex、title、translate
 
 
