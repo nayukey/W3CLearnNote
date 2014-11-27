@@ -49,7 +49,9 @@ Embedded content： 是从其他的资源导入进去文档中的内容部分
 eg: audio canvas embed iframe img math object svg video
 ------------------------------------------------------------------------------------------------------
 
-全局共同属性
+HTML元素全局共同属性
 accesskey、class、contenteditable、dir、hidden、id、lang、spellcheck、style、tabindex、title、translate
 
-
+HTML元素事件处理
+onabort、onblur*、oncancel、oncanplay、oncanplaythrough、onchange、onclick、oncuechange、ondblclick、ondurationchange、onemptied、onended、onerror*、onfocus*、oninput、oninvalid、onkeydown、onkeypress、onkeyup、onload*、onloadeddata、onloadedmetadata、onloadstart、onmousedown、onmouseenter、onmouseleave、onmousemove、onmouseout、onmouseover、onmouseup、onmousewheel、onpause、onplay、onplaying、onprogress、onratechange、onreset、onresize*、onscroll*、onseeked、onseeking、onselect、onshow、onstalled、onsubmit、onsuspend、ontimeupdate、ontoggle、onvolumechange、onwaiting
+注意：加星号的
