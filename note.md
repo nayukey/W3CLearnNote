@@ -54,4 +54,9 @@ accesskey、class、contenteditable、dir、hidden、id、lang、spellcheck、st
 
 HTML元素事件处理
 onabort、onblur*、oncancel、oncanplay、oncanplaythrough、onchange、onclick、oncuechange、ondblclick、ondurationchange、onemptied、onended、onerror*、onfocus*、oninput、oninvalid、onkeydown、onkeypress、onkeyup、onload*、onloadeddata、onloadedmetadata、onloadstart、onmousedown、onmouseenter、onmouseleave、onmousemove、onmouseout、onmouseover、onmouseup、onmousewheel、onpause、onplay、onplaying、onprogress、onratechange、onreset、onresize*、onscroll*、onseeked、onseeking、onselect、onshow、onstalled、onsubmit、onsuspend、ontimeupdate、ontoggle、onvolumechange、onwaiting
-注意：加星号的
+注意：加星号的处理，在window与htmlelements中存在不同的意义，是两种概念
+
+id属性：id属性在文档中必须是唯一的，且至少使用一个字符来表示，这里的属性值内不能存在任何空格属性
+
+title属性：title属性用来展示元素的介绍信息，就像一个适当的提示。在一个link上设置时，就会展示这个资源的描述信息，在一个image元素上时，就会展示这个image的说明，在一个段落中，它将表示一个脚注或者评论，在一个交互元素上，它将做为一个标签展示这个元素的用法。注意：title元素现在在很多设备的网页上不建议使用，触发提示的时候很多时候需要一个鼠标，而现在的多点触控，是不会展示这些信息的。
+
