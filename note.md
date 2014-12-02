@@ -28,7 +28,7 @@ document.getElementsByName(name) 返回name属性为某值的NodeList
 
 元素，属性，属性值在HTML中都会被定义成具体的意义，这些定义会让WEB搜索引擎，展示，使用文档和应用等一大堆的用途。开发者不能使用元素，属性，属性值去做这个元素本身不存在的用户当中。
 
-
+ Similarly, a node is the only child of an element if that element contains no other nodes other than inter-element whitespace, comment nodes, and processing instruction nodes.NODE的定义，一个节点是一个不包含其他节点的元素的唯一子内容
 
 
 
