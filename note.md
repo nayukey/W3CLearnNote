@@ -65,3 +65,12 @@ lang属性:设置元素的语言信息，如<p lang="en">English Here</p>
 
 translate属性：当属性值设置为空字符串或者yes时候，表示是yes的状态，text node的内容会在内容本地化的是同时被翻译，如果是设置为no，表示的是no的状态，则会保持不变的状态
 
+dir属性：lte，rtl，auto。lte表示文字从左到右展示，rtl表示文字从右到左展示，auto自动识别。document.dir设置HTML元素的文字排版展示，ltr，rtl或者auto，如果没有html元素，就会报错
+
+class设置HTML元素的class属性，getElementsByClassName返回查找拥有这个Class属性的列表。className和classList可以在JavaScript中返回HTML元素的class属性
+
+
+
+
+
+
