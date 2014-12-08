@@ -69,8 +69,9 @@ dir属性：lte，rtl，auto。lte表示文字从左到右展示，rtl表示文�
 
 class设置HTML元素的class属性，getElementsByClassName返回查找拥有这个Class属性的列表。className和classList可以在JavaScript中返回HTML元素的class属性
 
+style属性：element.style 返回这个元素的CSSStyleDeclaration对象
 
-
-
+data-*属性 嵌入式的不显示的数据
+所有的属性名在在HTML文档中的HTML元素都会自动小写，并限制大写的属性不会影响这些文档
 
 
